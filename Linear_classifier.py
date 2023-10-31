@@ -43,6 +43,6 @@ def training_step(inputs, targets):
     return loss
 
 
-for step in range(40):
+for step in range(75):
     loss = training_step(inputs, targets)
     print(f"Loss at step {step}: {loss:.4f}")
